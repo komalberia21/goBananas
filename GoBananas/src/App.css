@@ -15,15 +15,17 @@
   padding:20px;
   justify-content: space-between;
   width:100%;
+  margin:auto;
 }
 .search input[type="text"] {
-  width: 100%;
+  width: 85%;
   padding: 10px;
   border: 2px solid #ddd;
   border-radius: 5px;
   outline: none;
   font-size: 1.2rem;
   transition: border-color 0.3s ease;
+ 
 }
 
 .search input[type="text"]:focus {
