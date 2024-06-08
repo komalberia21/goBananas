@@ -11,7 +11,7 @@ import "./ProductTable.css";
 
 const ProductTable = ({ products }) => {
   return (
-    <TableContainer component={Paper} sx={{maxWidth:'800'}} >
+    <TableContainer component={Paper}  >
       <Table>
         <TableHead sx={{ backgroundColor: '#f5f5f5',fontSize:"1.5rem" }}>
           <TableRow>
