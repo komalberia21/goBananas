@@ -15,13 +15,13 @@ const ProductTable = ({ products }) => {
       <Table>
         <TableHead sx={{ backgroundColor: '#f5f5f5',fontSize:"1.5rem" }}>
           <TableRow>
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}}>ID</TableCell>
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}}>Name</TableCell>
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}}>Price</TableCell>
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}}>Category</TableCell>
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}}>Brand</TableCell>
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}}>Rating</TableCell> 
-            <TableCell className='table-cell-head'sx={{fontSize:"1.2rem",fontWeight:'bold'}} >Image</TableCell>
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}}>ID</TableCell>
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}}>Name</TableCell>
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}}>$Price</TableCell>
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}}>Category</TableCell>
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}}>Brand</TableCell>
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}}>Rating</TableCell> 
+            <TableCell className='table-cell-head'sx={{fontSize:"1.5rem",fontWeight:'bold'}} >Image</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
